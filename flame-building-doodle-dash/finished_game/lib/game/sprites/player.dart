@@ -48,7 +48,7 @@ class Player extends SpriteGroupComponent<PlayerState>
 
     await add(CircleHitbox());
 
-    await _loadCharacterSprites();
+    await _loadCharacterSprites(); 
     current = PlayerState.center;
   }
 
